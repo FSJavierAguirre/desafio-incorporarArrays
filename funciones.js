@@ -115,7 +115,7 @@ else if(eligePokemon === 2){
 else if(eligePokemon === 3){
     eligePokemon = 'Squirtle'
     equipoPokemon.unshift(pokemon007)
-    alertalert(`¡Felicidades! Ahora te acompaña ${pokemon007.nombre} y tiene ${pokemon007.vida} puntos de salud`)
+    alert(`¡Felicidades! Ahora te acompaña ${pokemon007.nombre} y tiene ${pokemon007.vida} puntos de salud`)
     eleccionUno = prompt(`Ahora que tienes un compañero, es hora de elegir tu siguiente Pokémon. Entre un caterpie y un pidgey ¿Cuál prefieres?`)
     if(eleccionUno === 'caterpie'){
         equipoPokemon.push(pokemon010)
